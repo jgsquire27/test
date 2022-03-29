@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script defer link="script.js"></script>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="styleDiv">
+      <h1>Binary Search Trees and Heaps</h1>
+      <h3>Binary Search Tree</h3>
+      <p>The binary search tree <b>additionally</b> satisfies the bst property, which states that the key in each node must be 
+      <b>greater than or equal</b> to any key sotred in the left sub-tree, and <b>less than or equal to</b> any key stored 
+      in the right sub tree.</p>
+      <p>If its greater than, go right, if its less than, go left</p>
+      <p>BST's are very quick, but must be balanced. Maximum difference of nodes should be 1, anymore and it loses performance.</p>
+      <p>This could be really good for a JS dictionary(a dictionary of objects)</p>
+      <p>This would be really good to iterate and sort through</p>
+      <p>This is used more than linked lists</p>
+      <h4>BST operations</h4>
+      <ul>
+        <li>insert, inserts a new node into the tree</li>
+        <li>find, finds a key in the tree and returns the data in the node</li>
+        <li>remove, removes a node given a key</li>
+        <li>size, gives the number of elements</li>
+        <li>print, returns a string representation of the tree structure</li>
+      </ul>
+      <h3>Binary Heap</h3>
+      <p>Heaps are similar except the root element is the largest one</p>
+      <p>In computer science, a heap is a tree data structure which satisfies the heap property: which says that a parent
+      node has to be greater than or equal to its children. the most common implementation is a binary heap 
+      in which the tree is a binary tree</p>
+      <p>The advantages of using a binary heap as a data structure: finding the max element is constant time, could be very space 
+      efficient, they are easy to implement</p>
+      <p>The disadvantages of using a Binary Heap as a data structure: slower than a stack, memory allocation is more complex</p>
+      <p>Applications: heapsort, Priority queue, Dijkstra's Shortest Path</p>
+      <h4>Binary Heap Operations</h4>
+      <ul>
+        <li>insert, inserts a new node into the tree</li>
+        <li>find, fins a key in the tree and returns the data in the node</li>
+        <li>remove, removes a node given a key</li>
+        <li>extractMax, removes and returns the root node and rearranges the rest of the tree to restore the heap property</li>
+      </ul>
+    </div> 
+  </body>
+</html>
